@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  cardGame
 //
-//  Created by MacOS on 24/02/2021.
+//  Created by Szymon Trombik on 24/02/2021.
 //
 
 import SwiftUI
