@@ -10,11 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var viewModel: EmojiMemoryGame
     
+    let columns = [
+        GridItem(.adaptive(minimum: 125))
+    ]
+    
     var body: some View {
         HStack {
-            ForEach (viewModel.cards) { card in
-                CardView(card: card)
-                    .onTapGesture { viewModel.choose(card: card) }
+            LazyVGrid (columns: columns, spacing: 5) {
+                ForEach(viewModel.cards) { card in
+                    CardView(card: card)
+                }
             }
         }
         .padding()
@@ -33,12 +38,16 @@ struct CardView: View {
                 RoundedRectangle(cornerRadius: 10.0).foregroundColor(Color.white)
                 Text(card.content)
             }
+            .frame(height: 60)
+            .padding()
         } else
         {
             ZStack {
                 RoundedRectangle(cornerRadius: 10.0).fill()
                 Text("?").foregroundColor(Color.white)
             }
+            .frame(height: 60)
+            .padding()
         }
     }
 }
