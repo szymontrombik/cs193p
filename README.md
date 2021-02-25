@@ -24,5 +24,6 @@ video: [Lecture 2: MVVM and the Swift Type System](https://youtu.be/4GjXq2Sr55Q)
 
 ### extras
 create better card view to manage space of the view more efficient
+
 <img src="https://github.com/szymontrombik/cs193p/blob/main/images/cardGame0203_faceUp.png" width="250"> <img src="https://github.com/szymontrombik/cs193p/blob/main/images/cardGame0204_faceDown.png" width="250">
 
