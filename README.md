@@ -27,3 +27,10 @@ create better card view to manage space of the view more efficient
 
 <img src="https://github.com/szymontrombik/cs193p/blob/main/images/cardGame0203_faceUp.png" width="250"> <img src="https://github.com/szymontrombik/cs193p/blob/main/images/cardGame0204_faceDown.png" width="250">
 
+## lesson #3
+
+### overview
+make use of reactive programming aproach and update layout to change font size based on available space
+
+### reference
+video: [Lecture 3: Reactive UI + Protocols + Layout](https://youtu.be/SIYdYpPXil4)
